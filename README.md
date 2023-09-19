@@ -4,6 +4,16 @@
 A program that uses only JWT technology
 The technology with which it was written is
  Asp.NetCore MVC
+  ## The packages used
+### Microsoft.AspNetCore.Authentication.JwtBearer
+### Microsoft.AspNetCore.Authentication.OpenIdConnec
+### Microsoft.AspNetCore.Identity.EntityFrameworkCore
+### Microsoft.EntityFrameworkCore
+### Microsoft.EntityFrameworkCore.Design
+### Microsoft.EntityFrameworkCore.SqlServer
+### Microsoft.EntityFrameworkCore.Tools
+### Microsoft.VisualStudio.Web.CodeGeneration.Design
+### System.IdentityModel.Tokens.Jwt
 ## What is JSON Web Token?
 JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with the HMAC algorithm) or a public/private key pair using RSA or ECDSA.
 
